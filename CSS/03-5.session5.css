@@ -1,0 +1,63 @@
+.boxmodel {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(236, 231, 224);
+    box-shadow: -15px 15px 10px -10px gray;
+    margin: 50px 100px;
+}
+
+.input {
+    width: 780px;
+    height: 80px;
+    padding: 5px;
+    border: 5px;
+    margin: 10px;
+}
+.input::after{
+    clear: both;
+}
+
+.col {
+    width: 360px;
+    height: 20px;
+    float: left;
+}
+.style1 {
+    box-sizing: border-box;
+    padding: 30px;
+    border: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.content-box {
+    width: 735px;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 10px;
+    margin: 10px 25px;
+    border-radius: 10px;
+}
+.submit-but {
+    width: 735px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    border: 10px;
+    margin: 10px 25px;
+    border-radius: 5px;
+}
+h3 {
+    padding: 5px;
+    margin: 4px 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: top center;
+}
+
+::placeholder {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(177, 166, 166);
+}
