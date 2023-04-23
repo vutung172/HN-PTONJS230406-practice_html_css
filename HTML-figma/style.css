@@ -1,5 +1,5 @@
 * {
-    padding: ;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -22,6 +22,7 @@ body {
 .container .nav {
     width: 40%;
     height: 100vh;
+    padding: 200px 40px;
     background-color: #00A3FF;
     background-image: url(./logo/S_confirmation.png);
     background-repeat: no-repeat;
@@ -33,25 +34,23 @@ body {
     height: 100vh;
     background-color: white;
     text-align: center;
-    position: fixed;
-    left
 }
 
 .container .nav h4   {
     font-weight: 700;
     font-style: normal;
-    font-weight: 700;
     font-size: 30px;
     line-height: 39px;
-    text-align: center;
     color: #FFFFFF;
-/* Inside auto layout */
+    text-align: center;
+    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     padding: 10px 5px;
     margin: 20px 30px;
 }
+
 .container .main h4 {
     font-style: normal;
     font-weight: 700;
@@ -123,7 +122,13 @@ body {
 }
 
 
-
+.col1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
 .col {
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +136,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .row    {
     display: flex;
     flex-wrap: wrap;
