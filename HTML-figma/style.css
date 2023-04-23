@@ -1,0 +1,142 @@
+* {
+    padding: ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.container .nav {
+    width: 40%;
+    height: 100vh;
+    background-color: #00A3FF;
+    background-image: url(./logo/S_confirmation.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.container .main {
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    left
+}
+
+.container .nav h4   {
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 10px 5px;
+    margin: 20px 30px;
+}
+.container .main h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #181C32; 
+    margin-bottom: 67px;
+}
+.container .main p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #B5B5C3;
+    margin: 8px 0 32px;
+}
+.container .nav p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+/* or 150% */
+    text-align: center;
+    color: #FFFFFF;
+/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 10px 5px;
+    margin: 20px 30px;
+}
+
+.container .main .col p {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #181C32;
+}
+
+.form .label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #181C32;
+}
+.form .email_header {
+    display: flex;
+    justify-content: start; 
+}
+.form input {
+    width: 100%;
+    height: 54px;
+    border: none;
+    margin: 10px 0;
+    text-indent: 10px;
+    background: #F5F8FA;
+    border-radius: 6px;
+    background: #F5F8FA;
+    border-radius: 6px;
+}
+
+
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row    {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: stretch;
+}
+
+
